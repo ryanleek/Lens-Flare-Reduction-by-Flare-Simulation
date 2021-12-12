@@ -1,5 +1,5 @@
 # Lens-Flare-Reduction-by-Flare-Simulation
-Lens Flare Reduction by Flare Simulation using U-Net
+Lens Flare Reduction by Flare Simulation and U-Net
 
 <p float="left">
   <img src="/images/origin.jpg" width="200" />
