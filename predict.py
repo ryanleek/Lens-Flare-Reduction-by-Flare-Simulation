@@ -1,5 +1,6 @@
 import pathlib
 import torch
+import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -88,3 +89,13 @@ output = [predict(img, model, preprocess, postprocess, device) for img in images
 
 #plt.imshow(output[3])
 #plt.imsave('4_1t.jpg', output[3], cmap = cm.gray)
+
+
+##image inpainting
+
+#img = cv2.imread('origin.jpg')
+#mask = cv2.imread('mask.jpg', 0)
+
+#paint = cv2.inpaint(img, mask, 100, cv2.INPAINT_TELEA)
+
+#cv2.imwrite('output.jpg', paint)
