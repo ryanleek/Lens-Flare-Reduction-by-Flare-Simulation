@@ -13,5 +13,5 @@ Lens Flare Reduction by Flare Simulation and U-Net
 4. Run train.py to start training
 5. Run predict.py to predict flare area and inpaint flared image
 
-*.ipynb colab environment
-*Training structure inspired by: https://towardsdatascience.com/creating-and-training-a-u-net-model-with-pytorch-for-2d-3d-semantic-segmentation-dataset-fb1f7f80fe55
+* .ipynb colab environment
+* Training structure inspired by: https://towardsdatascience.com/creating-and-training-a-u-net-model-with-pytorch-for-2d-3d-semantic-segmentation-dataset-fb1f7f80fe55
